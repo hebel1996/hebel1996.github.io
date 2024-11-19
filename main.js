@@ -8,14 +8,10 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     });
   });
 
-  document.getElementsByClassName('redirect').addEventListener('click', function() { 
+  document.getElementById('redirect').addEventListener('click', function() { 
     window.open('https://github.com/hebel1996/AbelGuest', '_blank');
+});
 
-    document.getElementById('carStore').addEventListener('click', function () {
+document.getElementById('carStore').addEventListener('click', function () {
     window.open('https://github.com/hebel1996/AbelGuest', '_blank');
-        
-    });
-
-
-
 });
