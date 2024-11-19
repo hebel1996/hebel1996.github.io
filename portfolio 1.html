@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Portfolio</title>
+  <link rel="stylesheet" href="portfolio 1.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand">
+        <img src="photo.jpg" alt="Your Photo" class="profile-pic">
+        <h1>Mr.Abel</h1>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container cont2">
+      <div class="intro">
+        <h2>Hello, I'm <span class="highlight">Abel</span></h2>
+        <p>A creative <span class="highlight">Future Software engineer</span> passionate about building beautiful, functional, and user-friendly experiences.</p>
+        <a href="#projects" class="btn">Explore My Work</a>
+      </div> 
+      <div style="padding-left: 60px;">
+        <img src="pic.jpg" alt="Your Picture" class="hero-pic">
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Abel</h2>
+      <p>Hi, I'm <b>Mr.Abel</b>. I'm a <span class="highlight"></span> , a second-year software engineering student with a passion for coding and creating cool projects. I love learning new technologies and building things that make life easier. Check out my projects, skills, and more about me. Let's connect and make something awesome together!.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="grid">
+        <div class="card" onclick="handleCard" id="redirect">
+          <a class="">Project 1</a>
+          <p>Details about this project.</p>
+        </div>
+        <div class="card" id="carStore">
+            <a href="https://github.com" class="">Project 2</a>
+          <p>Details about this project.</p>
+        </div>
+        <div class="card">
+
+          <a href="https://github.com" class="">Project 2</a>
+          <p>Details about this project.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <h3>HTML</h3>
+          <div class="progress-bar"><span style="width: 90%;"></span></div>
+        </div>
+        <div class="skill">
+          <h3>CSS</h3>
+          <div class="progress-bar"><span style="width: 85%;"></span></div>
+        </div>
+        <div class="skill">
+          <h3>JavaScript</h3>
+          <div class="progress-bar"><span style="width: 80%;"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container cont1">
+      <h2 class="contact-heading">Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Abel. Copy Right Reserved.</p>
+  </footer>
+
+<script src="portfolio 1.js"></script>
+</body>
+</html>
